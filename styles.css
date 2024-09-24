@@ -1,0 +1,63 @@
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#FFFF00, #FF0000);
+    color: black;
+}
+
+
+#header {
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: yellow;
+    background-image: url("https://borkena.com/wp-content/uploads/2017/12/Mekelle-City-.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+
+.items {
+    display: block;
+}
+
+
+img {
+    height: 220px;
+    width: 450px;
+    border: 4px solid lightblue;
+}
+
+
+footer {
+    font-style: italic;
+    font-size: large;
+}
+
+
+.more-content {
+    display: none;
+}
+
+
+.show-more-btn {
+    background-color: #ADD8E6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: medium;
+    border-radius: 7px;
+}
+
+
+.show-more-btn:hover {
+    background-color: #ADD8E6;
+}
